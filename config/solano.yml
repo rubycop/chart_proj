@@ -1,16 +1,2 @@
 ruby_version: "ruby-2.1.2-p0"
 bundler_version: "1.7.12"
-
-notify:
-- channel: email
-  trigger-on: failed
-  branch: master*
-  message: "Fail"
-  recipients: asaichuk@solanolabs.com
-  body: "custom"
-
-- channel: email
-  trigger-on: failed
-  branch: master*
-  message: "Fail w/o body"
-  recipients: asaichuk@solanolabs.com

@@ -10,10 +10,6 @@ RSpec.describe CSVParser, type: :model do
     expect(subject).to be_a(CsvParserHelper)
   end
 
-  it "failed test" do
-    expect(subject).to be_nil
-  end
-
   context "for csv data" do
     let(:text) {
       "created_at,passed_tests_count,failed_tests_count,worker_time,bundle_time\n"\
