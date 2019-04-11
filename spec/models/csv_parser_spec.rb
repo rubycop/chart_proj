@@ -53,14 +53,14 @@ RSpec.describe CSVParser, type: :model do
           "failed_tests_count"=>6,
           "worker_time"=>11,
           "bundle_time"=>9,
-          "abnormal"=>true
+          "abnormal"=>false
         },{
           "created_at"=>"01/02/15",
           "passed_tests_count"=>4,
           "failed_tests_count"=>3,
           "worker_time"=>0,
           "bundle_time"=>0,
-          "abnormal"=>true
+          "abnormal"=>false
       }])
     end
   end
