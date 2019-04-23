@@ -16,3 +16,4 @@
 !/log/.keep
 /tmp
 .solano*
+.predix-ci*

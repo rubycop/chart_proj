@@ -3,18 +3,12 @@ bundler_version: "1.15.4"
 
 plan:
 - first
-- second
 
-steps:
+profiles:
   fetch:
     script: bin/fetch
 
   first:
-    agent: stage2
-    test_pattern:
-      - spec/models/**_spec.rb
-
-  second:
-    agent: stage2
-    test_pattern:
-      - spec/models/**_spec.rb
+    script: bin/first
+    output:
+      - out.tar

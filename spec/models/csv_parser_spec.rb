@@ -30,13 +30,13 @@ RSpec.describe CSVParser, type: :model do
           "passed_tests_count"=>1,
           "failed_tests_count"=>1,
           "worker_time"=>4,
-          "bundle_time"=>6
+          "bundle_time"=>2
         },{
           "created_at"=>"01/01/2015",
           "passed_tests_count"=>2,
           "failed_tests_count"=>5,
           "worker_time"=>7,
-          "bundle_time"=>3
+          "bundle_time"=>2
         },{
           "created_at"=>"02/01/2015",
           "passed_tests_count"=>4,
@@ -53,14 +53,14 @@ RSpec.describe CSVParser, type: :model do
           "failed_tests_count"=>6,
           "worker_time"=>11,
           "bundle_time"=>9,
-          "abnormal"=>true
+          "abnormal"=>false
         },{
           "created_at"=>"01/02/15",
           "passed_tests_count"=>4,
           "failed_tests_count"=>3,
           "worker_time"=>0,
           "bundle_time"=>0,
-          "abnormal"=>true
+          "abnormal"=>false
       }])
     end
   end
