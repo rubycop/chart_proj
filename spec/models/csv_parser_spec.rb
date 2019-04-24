@@ -30,13 +30,13 @@ RSpec.describe CSVParser, type: :model do
           "passed_tests_count"=>1,
           "failed_tests_count"=>1,
           "worker_time"=>4,
-          "bundle_time"=>2
+          "bundle_time"=>3
         },{
           "created_at"=>"01/01/2015",
           "passed_tests_count"=>2,
           "failed_tests_count"=>5,
           "worker_time"=>7,
-          "bundle_time"=>2
+          "bundle_time"=>3
         },{
           "created_at"=>"02/01/2015",
           "passed_tests_count"=>4,
