@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
 echo "FIRST is running..."
+tar -cvzf out.tar config/solano.yml
